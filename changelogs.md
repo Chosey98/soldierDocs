@@ -87,9 +87,7 @@ Switched verification APIs
 
 * Added [Verify](commands/verify.md) command for user verification
 
-{% hint style="info" %}
 Start verifying your Roblox accounts to bind them to your discord for future uses
-{% endhint %}
 
 ### Changed
 
@@ -144,9 +142,7 @@ Start verifying your Roblox accounts to bind them to your discord for future use
 
 * Changed the default prefix to `s!`
 
-{% hint style="info" %}
 If your server is set up then your prefix is not changed
-{% endhint %}
 
 ## v1.0.3
 
