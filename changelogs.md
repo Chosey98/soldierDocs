@@ -4,6 +4,28 @@ description: All changelogs for the bot will be posted here
 
 # Changelogs
 
+## v1.1.4
+
+### Added
+
+* Added Global blacklist \(Local blacklist is scheduled in the next updates\) which allows us to blacklist groups and users now
+* Added High Council commands
+* Added update command which changes your nickname to the nickname of your roblox account if it's linked
+
+### Changed
+
+* Better discord ranks checking
+* Better server type checking
+* Better new help command for sole commands and in command help
+* Better memory conservation
+* Added an error if the bot doesn't have any ranks below it in army instead of showing no ranks
+
+### Fixed
+
+* Fixed some errors resulting in undefined values
+
+
+
 ## v1.1.3
 
 ### Added
@@ -87,7 +109,9 @@ Switched verification APIs
 
 * Added [Verify](commands/verify.md) command for user verification
 
+{% hint style="info" %}
 Start verifying your Roblox accounts to bind them to your discord for future uses
+{% endhint %}
 
 ### Changed
 
@@ -142,7 +166,9 @@ Start verifying your Roblox accounts to bind them to your discord for future use
 
 * Changed the default prefix to `s!`
 
+{% hint style="info" %}
 If your server is set up then your prefix is not changed
+{% endhint %}
 
 ## v1.0.3
 
