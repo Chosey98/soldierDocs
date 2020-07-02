@@ -10,7 +10,9 @@ description: All changelogs for the bot will be posted here
 
 * Added Global blacklist \(Local blacklist is scheduled in the next updates\) which allows us to blacklist groups and users now
 * Added High Council commands
-* Added update command which changes your nickname to the nickname of your roblox account if it's linked
+* Added update command which changes your nickname to the nickname of your Roblox account if it's linked
+* Developer bypass
+* High council custom prefix
 
 ### Changed
 
