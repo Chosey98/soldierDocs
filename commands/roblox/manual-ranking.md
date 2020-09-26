@@ -1,4 +1,4 @@
-# Ranking in regiments
+# Manual Ranking
 
 To rank someone, you must do the following command:
 

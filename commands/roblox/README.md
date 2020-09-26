@@ -2,11 +2,11 @@
 description: Here is a list of commands if you set your discord up as a "Regiment"
 ---
 
-# Regiment
+# Roblox
 
 ## Regiment Commands
 
-* [rank](ranking-in-regiments.md)
+* [rank](manual-ranking.md)
 * [accept](accepting-people.md)
 * [promote](promoting-one-rank-higher.md)
 * [demote](demoting-one-rank-below.md)

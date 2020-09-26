@@ -1,4 +1,4 @@
-# Ranking In Armies
+# Requests ranking
 
 To promote/demote someone, you must do the command:
 

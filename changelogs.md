@@ -49,7 +49,7 @@ description: All changelogs for the bot will be posted here
 ### Added
 
 * Added snipe command for all of you snipers 😉 
-* Added [Promote](commands/regiment/promoting-one-rank-higher.md) and [Demote](commands/regiment/demoting-one-rank-below.md) commands for servers set as regiments
+* Added [Promote](commands/roblox/promoting-one-rank-higher.md) and [Demote](commands/roblox/demoting-one-rank-below.md) commands for servers set as regiments
 
 ### Changed
 

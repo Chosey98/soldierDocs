@@ -12,9 +12,9 @@ You can invite the bot to your server using the [invitation link](https://discor
 
 You should open a support ticket and send the group link so we can add the bot to your group manually, join our discord by clicking the [invite link](https://discord.com/invite/WZUfAMS).
 
-## I have set up the bot as a regiment and it's not showing any ranks, how can I fix it?
+## I have set up my server for requests ranking system and when I use the ranking command the bot doesn't reply back!
 
-Apparently the bot has the lowest rank in the group make sure you rank it up higher than the maximum role you want the bot to rank and make sure that role has permissions to manage lower ranked users 
+Apparently, You have two ranks or more in your group that have the same id. If you want to know more about what the ranks are, Please join our support server and open a ticket and we would be more than glad to assist you. 
 
 ## How can I join the support server?
 

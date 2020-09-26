@@ -7,14 +7,13 @@
 
 ## Commands
 
-* [Army](commands/army/README.md)
-  * [Ranking In Armies](commands/army/ranking-in-armies.md)
-* [Regiment](commands/regiment/README.md)
-  * [Ranking in regiments](commands/regiment/ranking-in-regiments.md)
-  * [Accepting people](commands/regiment/accepting-people.md)
-  * [Promoting one rank higher](commands/regiment/promoting-one-rank-higher.md)
-  * [Demoting one rank below](commands/regiment/demoting-one-rank-below.md)
-  * [Exiling people](commands/regiment/exiling-people.md)
+* [Roblox](commands/roblox/README.md)
+  * [Requests ranking](commands/roblox/requests-ranking.md)
+  * [Manual Ranking](commands/roblox/manual-ranking.md)
+  * [Accepting people](commands/roblox/accepting-people.md)
+  * [Exiling people](commands/roblox/exiling-people.md)
+  * [Promoting one rank higher](commands/roblox/promoting-one-rank-higher.md)
+  * [Demoting one rank below](commands/roblox/demoting-one-rank-below.md)
 * [Verify](commands/verify.md)
 * [Shout](commands/shout.md)
 * [Welcomer](commands/welcomer.md)
