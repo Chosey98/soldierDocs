@@ -3,7 +3,6 @@
 * [Introduction](README.md)
 * [Setup](setup.md)
 * [Frequently Asked Questions \(FAQ\)](frequently-asked-questions-faq.md)
-* [Changelogs](changelogs.md)
 
 ## Commands
 
