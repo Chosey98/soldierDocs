@@ -4,13 +4,13 @@ description: This is a brief explanation on how to use our Users API
 
 # Users API
 
-{% api-method method="get" host="https://soldier-bot.herokuapp.com" path="/users/roblox/:robloxId" %}
+{% api-method method="get" host="https://api.soldier-bot.tk" path="/users/roblox/userId/:robloxId" %}
 {% api-method-summary %}
 Get User info using his Roblox ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the user info of the user in our database using his roblox id. Such as the discord ID bound to him.
+This endpoint allows you to get the user info of the user in our database using his Roblox id.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -46,13 +46,13 @@ Could not find a user matching that ID in that database
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://soldier-bot.herokuapp.com" path="/users/rUsername/:robloxUsername" %}
+{% api-method method="get" host="https://api.soldier-bot.tk" path="/users/roblox/robloxUsername/:robloxUsername" %}
 {% api-method-summary %}
 Get User info using his Roblox username
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the user info of the user in our database using his roblox username. Such as his discord ID bound to him.
+This endpoint allows you to get the user info of the user in our database using his Roblox username.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -88,20 +88,20 @@ No user was found with this username.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://soldier-bot.herokuapp.com" path="/users/discord/:userId" %}
+{% api-method method="get" host="https://api.soldier-bot.tk" path="/users/discord/userId/:userId" %}
 {% api-method-summary %}
 Get user info using his Discord ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the user info using his discord ID. Such as his roblox account bound to his discord ID
+This endpoint allows you to get the user info bound to his discord ID.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="userId" type="number" required=true %}
-Th
+The user discord Id
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
