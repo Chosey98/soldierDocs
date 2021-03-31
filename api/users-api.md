@@ -4,7 +4,7 @@ description: This is a brief explanation on how to use our Users API
 
 # Users API
 
-{% api-method method="get" host="https://api.soldier-bot.tk" path="/users/roblox/userId/:robloxId" %}
+{% api-method method="get" host="https://api.soldier-bot.tk" path="/users/roblox/robloxId/:robloxId" %}
 {% api-method-summary %}
 Get User info using his Roblox ID
 {% endapi-method-summary %}
