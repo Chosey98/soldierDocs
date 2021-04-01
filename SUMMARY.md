@@ -20,4 +20,5 @@
 ## API
 
 * [Users API](api/users-api.md)
+* [Ranking API](api/ranking-api.md)
 
