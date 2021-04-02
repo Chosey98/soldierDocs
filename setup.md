@@ -1,48 +1,67 @@
+---
+description: This page will describe how to properly setup your server with Soldier.
+---
+
 # Setup
 
 ## Setting Up
 
-To start setting up the discord bot, you must write out the command:
+To initiate the setup process, type the command below.
 
 ```
 s!setup
 ```
 
-The bot then will ask you for the following stuff in order: 
+Once you have typed the setup command, you will be prompted to answer the following questions:
 
-1. The server type which you can choose between these three: 1. **Requests:** Handle rank requests by having people with ranking access permissions accepting/declining the requests 2. **Manual:** Rank the user directly through a single line command if you have the ranking access permissions role\(s\) 3. **Moderation:** Set up the server for simple moderation
+1. What module you would like the server to be setup in?
 
-{% hint style="info" %}
-If you chose`Moderation`you can skip the following steps. If you don't you can still have moderation commands on/off in the next step
-{% endhint %}
-
-    2. Whether you want moderation commands enabled or not.
-
-    3. The Roblox group ID must be a valid group and bound to one server only in this case the one you are setting up.
+* **Roblox** This module enables options for group management, and user promotions and demotions. \(Recommended option\) 
+* **Moderation** This module is meant for servers who only require moderation commands from our bot. It has no group management options.
 
 {% hint style="info" %}
-If you are having any problems like the group is being bound to another server and you are the owner of the group file a ticket at the [Support server](https://discord.gg/WZUfAMS) and we would be glad to assist you immediately.
+If you choose the **Moderation** module, you will skip the following steps and the setup process would be completed. \(You can still enable moderation commands if you chose the **Roblox** module.
 {% endhint %}
 
-     4. The roles that you want them to have ranking access permissions.  
-     5. The roles that you want them to have rank requesters permissions. \(Only if  
-     the server type is set to `requests`\)  
-     6. The channel you want to receive the promotion requests in \(Only if the server type is set to `requests`\)  
-     7. The channel you want to receive the promotion-logs in \(Only if the server type is set to `requests`\)
+     2. Whether you would like Moderation commands to be enabled.  
+Enabling this setting will allow moderation commands to be enabled in your server.
 
-After that, you confirm your settings and you are ready to go.
+     3. What is your Roblox Group ID?  
+Enter your Roblox Group ID for the group that you would like Soldier to be bound in. Entering an invalid Group ID will cause the setup to end.
+
+{% hint style="warning" %}
+Please do not bound groups that you do not own.  
+This will cause unnecessary trouble for our team, and will result in your server being unbounded. If you're group has been bounded to another server, tell our [Support Team](https://discord.gg/KaSN7gnpkp).
+{% endhint %}
+
+     4. Set who can rank members.  
+Members with this role are able to use the `s!promote / s!demote` command. They are  also able to accept/decline ranking requests if the setting is enabled.
+
+     5. Set if ranking requests are enabled.  
+This setting determines whether ranking requests should be enabled, this opens up the opportunity for members with the ranking access role to be able to accept/decline requests sent from the `s!rank` command.
+
+     6. Set who can send a rank request.  
+Members with this role are able to use the `s!rank` command to send a rank request for anyone with a ranking access role to accept/decline.
+
+     7. Set where promotion requests should be sent at.  
+This setting determines where promotion requests should be sent at for members with a ranking access role to accept/decline.
+
+     8. Set where Soldier logs should be sent.  
+This setting determines where Soldier's logs should be placed.
+
+Once you have completed these steps and confirmed the settings, your server's setup willl be completed.
 
 {% hint style="info" %}
-If you are setting the server up as an army or a regiment/group, please open up a ticket in our [support server](https://discord.gg/WZUfAMS) so that we can add the bot to your group.
+If you have chosen the Roblox module, you will need to send a request in our [Discord Server](https://discord.gg/hdm87pRgrb) for  Soldier to be able to rank users accordingly.
 {% endhint %}
 
-### Additional channels
+### Additional Information
 
-* If you have a channel named `soldier-logs` then the bot will log everything to there
+* If you chose not to enable the ranking requests, but want to have Soldier logs, create a channel named `soldier-logs` and the bot will log all events normally.
 
-### Re-setup
+### Re-Setup
 
-If you want to re-setup your server you can use:
+If you need to change modules or enable/disable a setup setting, you can use the command below to re-setup your discord server with Soldier.
 
 ```text
 s!resetup
