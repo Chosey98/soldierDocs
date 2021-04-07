@@ -10,7 +10,7 @@ Get User info using his Roblox ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the user info of the user in our database using his Roblox id.
+This endpoint allows you to get the user info of the user in our database using the user's Roblox ID.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -52,7 +52,7 @@ Get User info using his Roblox username
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the user info of the user in our database using his Roblox username.
+This endpoint allows you to get the user info of the user in our database using the user's Roblox username.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -94,7 +94,7 @@ Get user info using his Discord ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the user info bound to his discord ID.
+This endpoint allows you to get the user info bound to the user's discord ID.
 {% endapi-method-description %}
 
 {% api-method-spec %}

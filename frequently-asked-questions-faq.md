@@ -10,7 +10,7 @@ Yes, It is completely free.
 
 ## How can I add the bot to my server?
 
-You can invite the bot to your server using the [invitation link](https://discord.com/oauth2/authorize?client_id=704473772136071249&scope=bot&permissions=1543761015).
+You can invite the bot to your server using [this](https://discord.com/api/oauth2/authorize?client_id=827196477993648129&permissions=2483416279&scope=bot) invitation link.
 
 ## How can I add the bot to my group?
 

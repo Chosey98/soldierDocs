@@ -1,18 +1,24 @@
 ---
-description: Here is a list of commands if you set your discord up as a "Regiment"
+description: This page shows the commands listed under the Roblox module.
 ---
 
 # Roblox
 
-## Regiment Commands
+## General Commands
 
-* [rank](manual-ranking.md)
-* [accept](accepting-people.md)
-* [promote](promoting-one-rank-higher.md)
-* [demote](demoting-one-rank-below.md)
-* [exile](exiling-people.md)
-* [shout](../shout.md)
-* [verify](../verify.md)
+{% page-ref page="general-commands/" %}
+
+## Miscellaneous Commands
+
+{% page-ref page="miscellaneous-commands/" %}
+
+## Ranking Commands
+
+{% page-ref page="ranking-commands/" %}
+
+## Settings
+
+{% page-ref page="settings/" %}
 
 
 
