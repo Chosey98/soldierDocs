@@ -54,7 +54,7 @@ However, if it failed, you may want to try again.
 {% endtab %}
 {% endtabs %}
 
-### How to Change the Roblox Account binded with Soldier.
+### How to Change the Roblox Account binded with Soldier
 
 To change the Roblox account binded with Soldier, type the command below and follow the steps.
 
