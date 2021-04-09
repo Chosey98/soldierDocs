@@ -4,10 +4,6 @@ description: This page shows the commands that are listed as a general command.
 
 # General Commands
 
-## Group ID
-
-{% page-ref page="group-id.md" %}
-
 ## Member Count
 
 {% page-ref page="member-count.md" %}

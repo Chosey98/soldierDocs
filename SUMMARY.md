@@ -8,7 +8,6 @@
 
 * [Roblox](commands/roblox/README.md)
   * [General Commands](commands/roblox/general-commands/README.md)
-    * [Group ID](commands/roblox/general-commands/group-id.md)
     * [Member Count](commands/roblox/general-commands/member-count.md)
     * [Re-Setup](commands/roblox/general-commands/re-setup.md)
     * [Re-Verify](commands/roblox/general-commands/re-verify.md)
@@ -38,6 +37,7 @@
     * [Up-Vote](commands/roblox/miscellaneous-commands/up-vote.md)
     * [Who Is](commands/roblox/miscellaneous-commands/who-is.md)
   * [Settings](commands/roblox/settings/README.md)
+    * [Group ID](commands/roblox/settings/group-id.md)
     * [Mod Cmds](commands/roblox/settings/mod-cmds.md)
     * [Prefix](commands/roblox/settings/prefix.md)
     * [Promotion Logs](commands/roblox/settings/promotion-logs.md)

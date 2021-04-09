@@ -4,6 +4,10 @@ description: This page shows the commands that are listed as a setting.
 
 # Settings
 
+## Group ID
+
+{% page-ref page="group-id.md" %}
+
 ## Mod Cmds
 
 {% page-ref page="mod-cmds.md" %}
