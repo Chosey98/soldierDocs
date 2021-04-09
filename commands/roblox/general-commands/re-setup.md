@@ -6,7 +6,7 @@ description: This page describes what the "membercount" command does.
 
 ## Usage
 
-This command is used to re-setup your discord server with Soldier.  
+This command is used to re-setup your Discord server with Soldier.  
 Usage:
 
 ```text
@@ -16,7 +16,7 @@ s!resetup
 Once this command is executed, you will be prompted to:
 
 * Make sure you want to re-setup.
-* Start the re-setup process.
+* Start the setup process.
 
 For more information about the setup process, head over to:
 
