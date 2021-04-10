@@ -6,7 +6,7 @@ description: This page describes what the "rank" command does.
 
 ## Usage
 
-This command is used to directly promote a user one rank above their previous rank.  
+This command is used to send a ranking request for users with a ranking access role to accept.  
 Usage:
 
 ```text

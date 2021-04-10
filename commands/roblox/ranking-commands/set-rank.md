@@ -6,7 +6,7 @@ description: This page describes what the "setrank" command does.
 
 ## Usage
 
-This command is used to directly promote a user one rank above their previous rank.  
+This command is used to directly set the rank of a user to a rank specified.  
 Usage:
 
 ```text
