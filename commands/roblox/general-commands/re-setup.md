@@ -1,5 +1,5 @@
 ---
-description: This page describes what the "membercount" command does.
+description: This page describes what the "resetup" command does.
 ---
 
 # Re-Setup

@@ -57,7 +57,7 @@ If you have chosen the Roblox module, you will need to send a request in our [Di
 
 ### Additional Information
 
-* If you chose not to enable the ranking requests, but want to have Soldier logs, create a channel named `soldier-logs` and the bot will log all events normally.
+* If you chose not to enable ranking requests, but want to have Soldier logs, create a channel named `soldier-logs` and the bot will log all events normally.
 
 ### Re-Setup
 
