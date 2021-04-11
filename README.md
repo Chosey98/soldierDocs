@@ -1,7 +1,8 @@
 ---
 description: >-
-  Welcome to Soldier's Documentation. This page describes the setup process in
-  full detail, as well as showing a list of commands and their usages.
+  Welcome to Soldier's Documentation. This website was designed to help
+  Soldier's users fully understand how to use the bot. This website contains
+  instructions on how to setup, verify and use commands.
 ---
 
 # Introduction
