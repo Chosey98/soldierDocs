@@ -6,8 +6,7 @@ description: This page describes what the "resetprefix" command does.
 
 ## Usage
 
-This command is used to reset Soldier's prefix back to it's original prefix of `s!`.
-
+This command is used to reset Soldier's prefix back to it's original prefix of `s!`.  
 Usage:
 
 ```text
