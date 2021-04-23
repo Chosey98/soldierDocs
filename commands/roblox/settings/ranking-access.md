@@ -6,14 +6,14 @@ description: This page describes what the "rankingaccess" command does.
 
 ## Usage
 
-This command is used to change what roles are able to accept ranking requests / promote members.  
+This command is used to change what roles are able to manage ranking requests and member ranks.  
 Usage:
 
 ```text
 s!settings rankingaccess <roles>
 ```
 
-Once this command is executed, Soldier will change what roles are able to accept ranking requests / promote members to the roles specified in the command.
+Once this command is executed, Soldier will change what roles are able to manage ranking requests and member ranks to the roles specified in the command.
 
 ## Permissions
 
