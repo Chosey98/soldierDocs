@@ -44,6 +44,7 @@
     * [Promotion Requests](commands/roblox/settings/promotion-requests.md)
     * [Rank Locks](commands/roblox/settings/rank-locks.md)
     * [Rank Requesters](commands/roblox/settings/rank-requesters.md)
+    * [Reset Prefix](commands/roblox/settings/reset-prefix.md)
     * [Ranking Access](commands/roblox/settings/ranking-access.md)
     * [Request System](commands/roblox/settings/request-system.md)
     * [Setup Xp](commands/roblox/settings/setup-xp.md)
