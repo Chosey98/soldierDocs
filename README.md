@@ -25,5 +25,5 @@ To start using Soldier,  your server needs to have completed the setup, learn ho
 
 
 
-Special thanks to: `Logic#8515` and `Exalted#9999` for helping out.
+Special thanks to: `Logc#8515` and `Exalted#9999` for helping out.
 
