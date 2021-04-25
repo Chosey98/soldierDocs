@@ -18,3 +18,4 @@ Once this command is executed, the current Soldier prefix will be reverted back 
 ## Permissions
 
 Only members with `ADMINISTRATOR` permissions are able to use this command.
+

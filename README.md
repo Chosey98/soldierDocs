@@ -13,17 +13,9 @@ Soldier is a discord bot that allows users to be able to rank members in their r
 
 ## Setting Up
 
-To start using Soldier,  your server needs to have completed the setup, learn how to do so by heading to Setup.
+To start using Soldier, your server needs to have completed the setup, learn how to do so by heading to Setup.
 
 {% page-ref page="setup.md" %}
-
-
-
-
-
-
-
-
 
 Special thanks to: `Logic#8515` and `Exalted#9999` for helping out.
 
