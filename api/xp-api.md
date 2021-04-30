@@ -27,21 +27,11 @@ API key for the server which can be obtained from our dashboard on our website
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Incase of error the success will be false and there will be an error key which has the message of the error
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```
-{    "message": "Ain't no cake like that."}
+{ success: true, userId: robloxId, xp: amountofXp }
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -83,11 +73,11 @@ The amount of xp to add
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-
+Incase of an error success will be false, and in case of promotion when adding xp the message will be 'xp added and promoted'
 {% endapi-method-response-example-description %}
 
 ```
-
+{ success: true, message: 'xp added' }
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -129,11 +119,11 @@ The amount of xp to remove
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-
+Incase of an error success will be false, and in case of promotion when removing xp the message will be 'xp removed and demoted'
 {% endapi-method-response-example-description %}
 
 ```
-
+{ success: true, message: 'xp removed' } 
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
