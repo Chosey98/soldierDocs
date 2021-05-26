@@ -22,12 +22,12 @@ API key for the server which can be obtained by the owner from the dashboard on 
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="robloxId" type="number" required=true %}
+{% api-method-parameter name="authorId" type="number" required=true %}
 The author Roblox Id ranking the user.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="username" type="string" required=true %}
-The username of the user being ranked.
+{% api-method-parameter name="userId" type="string" required=true %}
+The userId of the user being ranked.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="rank" type="string" required=true %}
