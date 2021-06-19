@@ -17,5 +17,5 @@ To start using Soldier, your server needs to have completed the setup, learn how
 
 {% page-ref page="setup.md" %}
 
-Special thanks to: `Logic#8515` and `Exalted#9999` for helping out.
+Special thanks to: `Logiс#0001` and `Exalted#9999` for helping out.
 
