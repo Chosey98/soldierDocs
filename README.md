@@ -1,7 +1,6 @@
 ---
 description: >-
-  Welcome to Soldier's Official Documentation. This website was designed to help
-  Soldier's users fully understand how to use the bot. This website contains
+  Welcome to Soldier's Official Documentation. This website was designed to help users fully understand how to use Soldier. This website contains
   instructions on how to setup, verify and use commands.
 ---
 
