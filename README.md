@@ -1,6 +1,6 @@
 ---
 description: >-
-  Welcome to Soldier's Documentation. This website was designed to help
+  Welcome to Soldier's Official Documentation. This website was designed to help
   Soldier's users fully understand how to use the bot. This website contains
   instructions on how to setup, verify and use commands.
 ---
@@ -17,5 +17,5 @@ To start using Soldier, your server needs to have completed the setup, learn how
 
 {% page-ref page="setup.md" %}
 
-Special thanks to: `Logiс#0001` and `Exalted#9999` for helping out.
+Special thanks to: `Logiс#3210` and `Exalted#9999` for helping out.
 
