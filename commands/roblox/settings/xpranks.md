@@ -1,21 +1,21 @@
 ---
-description: This page describes what the "demote" command does.
+description: This page describes what the "xpranks" command does.
 ---
 
-# Demote
+# XP Ranks
 
 ## Usage
 
-This command is used to directly demote a user one rank below their previous rank.  
+This command is used to change the roles which will have access to xp commands. 
 Usage:
 
 ```text
-s!demote <roblox username, user mention>
+s!xpranks <new roles>
 ```
 
-Once this command is executed, the user mentioned in the command will be demoted exactly one rank below their previous rank.
+Once this command is executed, the users who are able to use xp commands will be changed to users who have one of the roles specified in the command.
 
 ## Permissions
 
-Only members with a `Ranking Access` role are able to use this command.
+Only members with the `ADMINISTRATOR` permission are able to use this command.
 
