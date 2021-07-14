@@ -1,4 +1,0 @@
-# Welcomer
-
-Not made yet
-
