@@ -20,6 +20,12 @@ Once this command is executed, you will be prompted to:
 
 Once you have completed the prompt, experience points will be setup in your server.
 
+### Disabling XP
+To disable XP in your server, run the command below.
+```text
+s!settings xp off
+```
+
 ## Permissions
 
 Only members with `ADMINISTRATOR` permissions are able to use this command.
