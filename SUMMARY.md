@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Setup](setup.md)
-* [Frequently Asked Questions \(FAQ\)](frequently-asked-questions-faq.md)
+* [Frequently Asked Questions (FAQ)](frequently-asked-questions-faq.md)
 
 ## Commands
 
@@ -69,4 +69,4 @@
 * [Users API](api/users-api.md)
 * [Ranking API](api/ranking-api.md)
 * [XP API](api/xp-api.md)
-
+* [V13 Update logs](api/v13-update-logs.md)
