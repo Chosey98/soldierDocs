@@ -1,132 +1,77 @@
 # XP API
 
-{% api-method method="get" host="https://api.soldier-bot.tk" path="/xp/getXp/:robloxId" %}
-{% api-method-summary %}
-Get XP
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.soldier-bot.tk" path="/xp/getXp/:robloxId" method="get" summary="Get XP" %}
+{% swagger-description %}
 This endpoint allows you to get the xp of a user.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="robloxId" type="number" required=true %}
+{% swagger-parameter in="path" name="robloxId" type="number" %}
 Roblox ID of the user you want to get his xp
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-headers %}
-{% api-method-parameter name="apikey" type="string" required=true %}
+{% swagger-parameter in="header" name="apikey" type="string" %}
 API key for the server which can be obtained from our dashboard on our website
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Incase of error the success will be false and there will be an error key which has the message of the error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Incase of error the success will be false and there will be an error key which has the message of the error" %}
 ```
 { success: true, userId: robloxId, xp: amountofXp, nextRankId: theIdOfTheNextRank, nextRankXp: theXpOfTheNextRank}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="post" host="https://api.soldier-bot.tk" path="/xp/addXp" %}
-{% api-method-summary %}
-Add XP
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.soldier-bot.tk" path="/xp/addXp" method="post" summary="Add XP" %}
+{% swagger-description %}
 Adds xp to a user and ranks him if he has enough xp
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="apikey" type="string" required=true %}
+{% swagger-parameter in="header" name="apikey" type="string" %}
 API key for the server which can be obtained from our dashboard on our website.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+{% endswagger-parameter %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="authorId" type="number" required=true %}
+{% swagger-parameter in="body" name="authorId" type="number" %}
 The id of the author requesting to add xp
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="userId" type="number" required=true %}
+{% swagger-parameter in="body" name="userId" type="number" %}
 The id of the user being added xp to
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="xp" type="number" required=true %}
+{% swagger-parameter in="body" name="xp" type="number" %}
 The amount of xp to add
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Incase of an error success will be false, and in case of promotion when adding xp the message will be 'xp added and promoted'
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Incase of an error success will be false, and in case of promotion when adding xp the message will be 'xp added and promoted'" %}
 ```
 { success: true, message: 'xp added' }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="post" host="https://api.soldier-bot.tk" path="/xp/removeXp" %}
-{% api-method-summary %}
-Remove XP
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.soldier-bot.tk" path="/xp/removeXp" method="post" summary="Remove XP" %}
+{% swagger-description %}
 Removes xp to a user and ranks him if he has enough xp
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="apikey" type="string" required=true %}
+{% swagger-parameter in="header" name="apikey" type="string" %}
 API key for the server which can be obtained from our dashboard on our website.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+{% endswagger-parameter %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="authorId" type="number" required=true %}
+{% swagger-parameter in="body" name="authorId" type="number" %}
 The id of the author requesting to remove xp
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="userId" type="number" required=true %}
+{% swagger-parameter in="body" name="userId" type="number" %}
 The id of the user being removed xp from
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="xp" type="number" required=true %}
+{% swagger-parameter in="body" name="xp" type="number" %}
 The amount of xp to remove
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Incase of an error success will be false, and in case of promotion when removing xp the message will be 'xp removed and demoted'
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Incase of an error success will be false, and in case of promotion when removing xp the message will be 'xp removed and demoted'" %}
 ```
 { success: true, message: 'xp removed' } 
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

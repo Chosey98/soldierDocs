@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Setup](setup.md)
 * [Frequently Asked Questions (FAQ)](frequently-asked-questions-faq.md)
+* [Verification](verification.md)
 
 ## Commands
 
@@ -61,8 +62,6 @@
     * [Un-Mute](commands/moderation/moderation-commands/un-mute.md)
 
 ## Processes
-
-* [Verification](processes/verification.md)
 
 ## API
 
