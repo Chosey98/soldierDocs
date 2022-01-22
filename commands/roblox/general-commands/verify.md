@@ -16,8 +16,8 @@ s!verify
 Once this command is executed, you will be prompted to complete the verification process.\
 For more information about the verification process, visit verification.
 
-{% content-ref url="../../../verification.md" %}
-[verification.md](../../../verification.md)
+{% content-ref url="../../../processes/verification.md" %}
+[verification.md](../../../processes/verification.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

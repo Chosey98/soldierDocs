@@ -20,8 +20,8 @@ Once this command is executed, you will be prompted to:
 
 For more information about the verification process, head over to:
 
-{% content-ref url="../../../verification.md" %}
-[verification.md](../../../verification.md)
+{% content-ref url="../../../processes/verification.md" %}
+[verification.md](../../../processes/verification.md)
 {% endcontent-ref %}
 
 ## Permissions
