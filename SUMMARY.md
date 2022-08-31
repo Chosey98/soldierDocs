@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Setup](setup.md)
 * [Frequently Asked Questions (FAQ)](frequently-asked-questions-faq.md)
-* [V13 Update logs](v13-update-logs.md)
+* [31/8 Update](31-8-update.md)
 
 ## Commands
 
