@@ -1,6 +1,6 @@
 # XP API
 
-{% swagger baseUrl="https://api.soldier-bot.tk" path="/xp/getXp/:robloxId" method="get" summary="Get XP" %}
+{% swagger baseUrl="https://api.soldier.gq" path="/xp/getXp/:robloxId" method="get" summary="Get XP" %}
 {% swagger-description %}
 This endpoint allows you to get the xp of a user.
 {% endswagger-description %}
@@ -20,7 +20,7 @@ API key for the server which can be obtained from our dashboard on our website
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.soldier-bot.tk" path="/xp/addXp" method="post" summary="Add XP" %}
+{% swagger baseUrl="https://api.soldier.gq" path="/xp/addXp" method="post" summary="Add XP" %}
 {% swagger-description %}
 Adds xp to a user and ranks him if he has enough xp
 {% endswagger-description %}
@@ -48,7 +48,7 @@ The amount of xp to add
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.soldier-bot.tk" path="/xp/removeXp" method="post" summary="Remove XP" %}
+{% swagger baseUrl="https://api.soldier.gq" path="/xp/removeXp" method="post" summary="Remove XP" %}
 {% swagger-description %}
 Removes xp to a user and ranks him if he has enough xp
 {% endswagger-description %}

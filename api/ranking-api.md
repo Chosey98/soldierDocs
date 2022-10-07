@@ -4,7 +4,7 @@ description: Brief description on how to use the Ranking API.
 
 # Ranking API
 
-{% swagger baseUrl="https://api.soldier-bot.tk" path="/ranking/rank" method="post" summary="Set rank" %}
+{% swagger baseUrl="https://api.soldier.gq" path="/ranking/rank" method="post" summary="Set rank" %}
 {% swagger-description %}
 
 {% endswagger-description %}

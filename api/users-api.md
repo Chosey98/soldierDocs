@@ -4,7 +4,7 @@ description: This is a brief explanation on how to use our Users API
 
 # Users API
 
-{% swagger baseUrl="https://api.soldier-bot.tk" path="/users/roblox/robloxId/:robloxId" method="get" summary="Get User info using his Roblox ID" %}
+{% swagger baseUrl="https://api.soldier.gq" path="/users/roblox/robloxId/:robloxId" method="get" summary="Get User info using his Roblox ID" %}
 {% swagger-description %}
 This endpoint allows you to get the user info of the user in our database using the user's Roblox ID.
 {% endswagger-description %}
@@ -26,7 +26,7 @@ Roblox ID of the user
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.soldier-bot.tk" path="/users/roblox/robloxUsername/:robloxUsername" method="get" summary="Get User info using his Roblox username" %}
+{% swagger baseUrl="https://api.soldier.gq" path="/users/roblox/robloxUsername/:robloxUsername" method="get" summary="Get User info using his Roblox username" %}
 {% swagger-description %}
 This endpoint allows you to get the user info of the user in our database using the user's Roblox username.
 {% endswagger-description %}
@@ -48,7 +48,7 @@ Roblox username of the user
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.soldier-bot.tk" path="/users/discord/userId/:userId" method="get" summary="Get user info using his Discord ID" %}
+{% swagger baseUrl="https://api.soldier.gq" path="/users/discord/userId/:userId" method="get" summary="Get user info using his Discord ID" %}
 {% swagger-description %}
 This endpoint allows you to get the user info bound to the user's discord ID.
 {% endswagger-description %}
